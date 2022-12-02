@@ -28,4 +28,4 @@ if __name__ == '__main__':
     put_message = put_response.json()['message']
 
     # DELETE
-    requests.delete("http://localhost:8989/test_put_method", params={"id": put_message})
+    requests.delete("http://localhost:8989/test_delete_method", params={"id": put_message})
